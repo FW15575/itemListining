@@ -1,0 +1,61 @@
+<nav class="navbar bg-dark">
+  <div class="container-fluid">
+    <a style="color:white;margin-left:45%;">Add Product</a>
+
+    <a style="color:white;">Testy Codeiz</a>
+
+
+  </div>
+</nav>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+
+        <form #addProduct="ngForm" (ngSubmit)="addProduct.form.valid &&  addData(addProduct.value)">
+
+          <div class="mb-3">
+            <label>Product Id</label>
+            <input type="text" class="form-control" name="productid" #productid="ngModel" ngModel   placeholder="ABC101" required >
+          </div>
+
+          <div class="mb-3">
+            <label>Product Name</label>
+            <input type="text" class="form-control" name="productname" #productname="ngModel" ngModel  placeholder="Redmi Note 8" required >
+          </div>
+
+          <div class="mb-3">
+            <label>Product Price</label>
+            <input type="text" class="form-control" name="productprice" #productprice="ngModel" ngModel placeholder="14000/rs" required >
+          </div>
+
+          <div class="mb-3">
+            <label>Product Category</label>
+            <input type="text" class="form-control" name="productcategory" #productcategory="ngModel" ngModel placeholder="Tech" required >
+          </div>
+
+          <div class="mb-3">
+            <label>Product Description</label>
+            <input type="text" class="form-control" name="productdescription" #productdescription="ngModel" ngModel placeholder="ABC101" required >
+          </div>
+
+          <div class="mb-3">
+            <label>Product URL</label>
+            <input type="text" class="form-control" name="producturl" #producturl="ngModel" ngModel placeholder="abc.jpg/jpeg/png" required >
+          </div>
+
+
+          <div class="buttons mb-2">
+          <button type="submit" class="btn btn-primary mx-2">Add Product</button>
+          <button routerLink="/view-product" type="submit" class="btn btn-warning mx-2 ">View Product</button>
+
+         </div>
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "productid": "14-dv0058TU",
+      "productname": "HP Pavilion",
+      "productprice": "92,499",
+      "productcategory": "11th Gen Intel Core i7",
+      "productdescription": "HP Pavilion 14 11th Gen Intel Core i7 16GB/1TB SSD 14 inches Laptop, FHD Micro-Edge Anti-Glare Display/Iris X Graphics/Backlit KB/B&O Audio/Fingerprint Reader/Windows 11 Ready/1.41kg, 14-dv0058TU",
+      "producturl": "https://m.media-amazon.com/images/I/71hmqIQJFdL._AC_UL400_.jpg",
+      "id": 1
+    },
+    {
+      "productid": "Inspiron 3525",
+      "productname": "Dell Inspiron 3525",
+      "productprice": "60000",
+      "productcategory": "Windows 11 + MSO'21",
+      "productdescription": "Dell Inspiron 3525 Laptop, AMD Ryzen R3-5425U, 8GB, 512GB, 15.6\" (39.62Cms) FHD WVA AG 120Hz 250 nits, Windows 11 + MSO'21, Platinum Silver (1.68Kgs D560764WIN9S)",
+      "producturl": "https://m.media-amazon.com/images/I/61QUeN1mQQL._SL1080_.jpg",
+      "id": 2
+    },
+    {
+      "productid": " Intel Core i7-1255U",
+      "productname": "HP Envy x360",
+      "productprice": "800000",
+      "productcategory": "Micro-Edge Display",
+      "productdescription": "HP Envy x360 for Creators 12th Gen Intel Core i7-1255U, 15.6inch(39.6 cm) FHD OLED 500 Nits Micro-Edge Display (16GB RAM/1TB SSD/B&O/NVIDIA GeForce RTX 2050/Win 11/Fast Charge/Pen/1.7 Kgs/15-ew0022TX)",
+      "producturl": "https://m.media-amazon.com/images/I/717hk1x74jL._SY450_.jpg",
+      "id": 3
+    },
+    {
+      "productid": "Apple",
+      "productname": "MacBook Air",
+      "productprice": "1000000",
+      "productcategory": "M1 chip, 13.3-inch/33.74 cm Retina Display",
+      "productdescription": "Apple 2020 MacBook Air Laptop M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad",
+      "producturl": "https://m.media-amazon.com/images/I/31ilq3hPhEL._SY445_SX342_QL70_FMwebp_.jpg",
+      "id": 4
+    }
+  ]
+}
